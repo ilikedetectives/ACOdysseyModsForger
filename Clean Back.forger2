@@ -1,0 +1,417 @@
+{
+	"Format": "ForgerPatch2",
+	"GameEXE": "ACOdyssey",
+	"CollectionTitle": "Clean Back",
+	"CollectionVersion": 1,
+	"CollectionID": "Clean Back",
+	"Patches": [
+		{
+			"PatchTitle": "Invisible Abstergo Bow & Quiver",
+			"PatchDescription": "Renders Abstergo Bow & Quiver invisible",
+			"PatchID": "ACD_W_DLC_Quiver_Abstergo, ACD_W_M_Bow_AbstergoBow, ACD_W_SHR_Arrow_A",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_29\\DataPC_29_dlc.forge",
+					"FileID": 1823394388812,
+					"Edits": [
+						{
+							"OffsetHex": "AB3F",
+							"RunSize" : [6],
+							"RunCount": 3064,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "16892",
+							"RunSize" : [6],
+							"RunCount": 1532,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "1EAE9",
+							"RunSize" : [6],
+							"RunCount": 1224,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "24D9C",
+							"RunSize" : [6],
+							"RunCount": 765,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "28FA7",
+							"RunSize" : [6],
+							"RunCount": 458,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_29\\DataPC_29_dlc.forge",
+					"FileID": 1800110805937,
+					"Edits": [
+						{
+							"OffsetHex": "EC39",
+							"RunSize" : [6],
+							"RunCount": 2736,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "1C794",
+							"RunSize" : [6],
+							"RunCount": 1700,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "26C3F",
+							"RunSize" : [6],
+							"RunCount": 1221,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "2D408",
+							"RunSize" : [6],
+							"RunCount": 600,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "31923",
+							"RunSize" : [6],
+							"RunCount": 280,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 270900715817,
+					"Edits": [
+						{
+							"OffsetHex": "61763",
+							"RunSize" : [6],
+							"RunCount": 64,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549856,
+					"Edits": [
+						{
+							"OffsetHex": "56D0",
+							"RunSize" : [6],
+							"RunCount": 787,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549857,
+					"Edits": [
+						{
+							"OffsetHex": "8EF2",
+							"RunSize" : [6],
+							"RunCount": 1575,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896272237,
+					"Edits": [
+						{
+							"OffsetHex": "73D6",
+							"RunSize" : [6],
+							"RunCount": 1181,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Broken Spear of Leonidas (Basic)",
+			"PatchDescription": "Renders Spear invisible (often in cinematic cutscenes)",
+			"PatchID": "CD_CHW_BrokenSpear_01",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1695378986601,
+					"Edits": [
+						{
+							"OffsetHex": "5071",
+							"RunSize" : [6],
+							"RunCount": 1004,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "9E09",
+							"RunSize" : [6],
+							"RunCount": 478,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "CB21",
+							"RunSize" : [6],
+							"RunCount": 288,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1695378986603,
+					"Edits": [
+						{
+							"OffsetHex": "71AE",
+							"RunSize" : [6],
+							"RunCount": 1420,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1698439153869,
+					"Edits": [
+						{
+							"OffsetHex": "71AE",
+							"RunSize" : [6],
+							"RunCount": 1420,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Broken Spear of Leonidas (Upgrades)",
+			"PatchDescription": "Renders Spear invisible (all upgrades)",
+			"PatchID": "CD_CHW_BrokenSpear_02, 03, 04, 05, 06, 06B, lvl_6_B",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1696013939635,
+					"Edits": [
+						{
+							"OffsetHex": "44F5",
+							"RunSize" : [6],
+							"RunCount": 990,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "BA59",
+							"RunSize" : [6],
+							"RunCount": 467,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "B0A5",
+							"RunSize" : [6],
+							"RunCount": 230,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1696013939637,
+					"Edits": [
+						{
+							"OffsetHex": "68EE",
+							"RunSize" : [6],
+							"RunCount": 1514,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1699031050624,
+					"Edits": [
+						{
+							"OffsetHex": "68EE",
+							"RunSize" : [6],
+							"RunCount": 1514,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1698438432191,
+					"Edits": [
+						{
+							"OffsetHex": "453B",
+							"RunSize" : [6],
+							"RunCount": 945,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "87F7",
+							"RunSize" : [6],
+							"RunCount": 481,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "98DF",
+							"RunSize" : [6],
+							"RunCount": 245,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1698438432193,
+					"Edits": [
+						{
+							"OffsetHex": "96EE",
+							"RunSize" : [6],
+							"RunCount": 1817,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1698439124318,
+					"Edits": [
+						{
+							"OffsetHex": "81D6",
+							"RunSize" : [6],
+							"RunCount": 1609,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1694833501804,
+					"Edits": [
+						{
+							"OffsetHex": "99AA",
+							"RunSize" : [6],
+							"RunCount": 2040,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1694833501796,
+					"Edits": [
+						{
+							"OffsetHex": "9B21",
+							"RunSize" : [6],
+							"RunCount": 2040,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1696258946645,
+					"Edits": [
+						{
+							"OffsetHex": "D29E",
+							"RunSize" : [6],
+							"RunCount": 2444,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1696258946643,
+					"Edits": [
+						{
+							"OffsetHex": "D415",
+							"RunSize" : [6],
+							"RunCount": 2444,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1699797662835,
+					"Edits": [
+						{
+							"OffsetHex": "C84E",
+							"RunSize" : [6],
+							"RunCount": 2474,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1699797662833,
+					"Edits": [
+						{
+							"OffsetHex": "C9C5",
+							"RunSize" : [6],
+							"RunCount": 2474,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1700722265979,
+					"Edits": [
+						{
+							"OffsetHex": "C84F",
+							"RunSize" : [6],
+							"RunCount": 2474,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1700722265977,
+					"Edits": [
+						{
+							"OffsetHex": "C9C7",
+							"RunSize" : [6],
+							"RunCount": 2474,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1638356795426,
+					"Edits": [
+						{
+							"OffsetHex": "8422",
+							"RunSize" : [6],
+							"RunCount": 2474,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1638356795424,
+					"Edits": [
+						{
+							"OffsetHex": "85A1",
+							"RunSize" : [6],
+							"RunCount": 2474,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,157 @@
+{
+	"Format": "ForgerPatch2",
+	"GameEXE": "ACOdyssey",
+	"CollectionTitle": "Clean Back",
+	"CollectionVersion": 1,
+	"CollectionID": "Clean Back",
+	"Patches": [
+		{
+			"PatchTitle": "Invisible Abstergo Bow & Quiver",
+			"PatchDescription": "Renders Abstergo Bow & Quiver Invisible",
+			"PatchID": "ACD_W_DLC_Quiver_Abstergo-1823394388812 and ACD_W_M_Bow_AbstergoBow-1800110805937",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_29\\DataPC_29_dlc.forge",
+					"FileID": 1823394388812,
+					"Edits": [
+						{
+							"OffsetHex": "AB3F",
+							"RunSize" : [6],
+							"RunCount": 3064,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "16892",
+							"RunSize" : [6],
+							"RunCount": 1532,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "1EAE9",
+							"RunSize" : [6],
+							"RunCount": 1224,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "24D9C",
+							"RunSize" : [6],
+							"RunCount": 765,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "28FA7",
+							"RunSize" : [6],
+							"RunCount": 458,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_29\\DataPC_29_dlc.forge",
+					"FileID": 1800110805937,
+					"Edits": [
+						{
+							"OffsetHex": "EC39",
+							"RunSize" : [6],
+							"RunCount": 2736,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "1C794",
+							"RunSize" : [6],
+							"RunCount": 1700,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "26C3F",
+							"RunSize" : [6],
+							"RunCount": 1221,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "2D408",
+							"RunSize" : [6],
+							"RunCount": 600,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "31923",
+							"RunSize" : [6],
+							"RunCount": 280,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 270900715817,
+					"Edits": [
+						{
+							"OffsetHex": "61763",
+							"RunSize" : [6],
+							"RunCount": 64,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549856,
+					"Edits": [
+						{
+							"OffsetHex": "56D0",
+							"RunSize" : [6],
+							"RunCount": 787,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549857,
+					"Edits": [
+						{
+							"OffsetHex": "8EF2",
+							"RunSize" : [6],
+							"RunCount": 1575,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896272237,
+					"Edits": [
+						{
+							"OffsetHex": "73D6",
+							"RunSize" : [6],
+							"RunCount": 1181,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+	{
+			"PatchTitle": "No Spear",
+			"PatchDescription": "Renders Spear of Leonidas Invisible",
+			"PatchID": "No spear by hypermorphic",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1603947204681,
+					"Edits": [
+						{
+							"OffsetHex": "2E4",
+							"RunCount": 6,
+							"Skip": [78],
+							"Data" : "00000000000000"
+						}
+					]
+				}
+			]
+		}
+	]
+}

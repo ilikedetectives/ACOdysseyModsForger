@@ -9,7 +9,7 @@ Appearance/Outfit mods for Assassin's Creed: Odyssey, using Forger Utility Tool 
 ### Installation
 1) Follow hypermorphic's [instructions to install Forger 2.6.5 Utility tool](https://www.nexusmods.com/assassinscreedodyssey/articles/5).
 2) Drop any .forger2 file into your "ForgerPatches" folder, located inside your game folder (same location as your ACOdyssey.exe file).
-3) Open Forger 2.6.5, hit "Rescan" if necessary. ﻿New patches will be highlighted in yellow, and updates to existing patches will display in green.
+3) Open Forger, hit "Rescan" if necessary. ﻿New patches will be highlighted in yellow, and updates to existing patches will display in green.
 4) Check "Clean Back", this shouldn't take long but wait until the check appears.
 5) Close Forger. **If you leave Forger opened and start the game, your files may get corrupted and you will have to restore the game before reinstalling Forger.**
 6) Open the game and play as usual.

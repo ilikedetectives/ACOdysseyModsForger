@@ -3,7 +3,7 @@ Appearance/Outfit mods for Assassin's Creed: Odyssey, using Forger Utility Tool 
 
 ## Getting Started
 ### Prerequisites
-1) [Forger 2.6.5 Utility tool](https://www.nexusmods.com/assassinscreedodyssey/mods/42?tab=files) by hypermorphic
+1) [Forger 2.7 Utility tool](https://www.nexusmods.com/assassinscreedodyssey/mods/42?tab=files) by hypermorphic
 2) Any .forger2 file(s) with the mods that you want
 
 ### Installation

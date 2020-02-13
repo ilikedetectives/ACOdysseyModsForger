@@ -6,58 +6,6 @@
 	"CollectionID": "Additional Customizations",
 	"Patches": [
 		{
-			"PatchTitle": "Odysseus Shoulder Cloth",
-			"PatchDescription": "Removes the shoulder cloth from Odysseus torso",
-			"PatchID": "NudeGreece Odysseus Shoulder Chlamyde T306",
-			"PatchVersion": 1,
-			"Targets": [
-				{
-					"File": "DataPC_patch_01.forge",
-					"FileID": 1775782851858,
-					"Edits": [
-						{
-							"OffsetHex": "3B9",
-							"RunCount": 3,
-							"Skip": [731,1440],
-							"Data": "0000000000000000"
-						}
-					]
-				}
-			]
-		},
-		{
-			"PatchTitle": "Ancient Kings",
-			"PatchDescription": "Ancient Kings",
-			"PatchID": "No spear",
-			"PatchVersion": 2,
-			"Targets": [
-				{
-					"File": "DataPC_SharedGroup_00.forge",
-					"FileID": 1652526322557,
-					"Edits": [
-						{
-							"OffsetHex": "36D",
-							"RunCount": 5,
-							"Skip": [675,725,725,725],
-							"Data" : "0000000000000000"
-						}
-					]
-				},
-				{
-					"File": "DataPC_SharedGroup_00.forge",
-					"FileID": 1652526322593,
-					"Edits": [
-						{
-							"OffsetHex": "371",
-							"RunCount": 4,
-							"Skip": [675,725,725],
-							"Data" : "0000000000000000"
-						}
-					]
-				}
-			]
-		},
-		{
 			"PatchTitle": "Helios God Ray",
 			"PatchDescription": "Renders Helios God Ray invisible",
 			"PatchID": "ACD_CHM_PLA_H403_B01_HeliosGodRay-1898722034658",

@@ -2,9 +2,197 @@
 	"Format": "ForgerPatch2",
 	"GameEXE": "ACOdyssey",
 	"CollectionTitle": "Clean Back",
-	"CollectionVersion": 1,
+	"CollectionVersion": 3.0,
 	"CollectionID": "Clean Back",
 	"Patches": [
+		{
+			"PatchTitle": "Invisible Achilles and Big Horn Bows & Quivers",
+			"PatchDescription": "Renders Achilles and Big Horn Bows & Quivers invisible",
+			"PatchID": "ACD_W_M_Bow_RedGoldBow, ACD_W_M_Bow_AchillesBow, and ACD_W_LGD_Quiver_D",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1680136817398,
+					"Edits": [
+						{
+							"OffsetHex": "BD94",
+							"RunSize" : [6],
+							"RunCount": 2700,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1680136817410,
+					"Edits": [
+						{
+							"OffsetHex": "6BC4",
+							"RunSize" : [6],
+							"RunCount": 1350,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1680136817397,
+					"Edits": [
+						{
+							"OffsetHex": "5B9F",
+							"RunSize" : [6],
+							"RunCount": 1080,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "B449",
+							"RunSize" : [6],
+							"RunCount": 674,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "F0D7",
+							"RunSize" : [6],
+							"RunCount": 404,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1637387651558,
+					"Edits": [
+						{
+							"OffsetHex": "C9F1",
+							"RunSize" : [6],
+							"RunCount": 3046,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1671364376829,
+					"Edits": [
+						{
+							"OffsetHex": "70B1",
+							"RunSize" : [6],
+							"RunCount": 1576,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1418930388320,
+					"Edits": [
+						{
+							"OffsetHex": "5C6F",
+							"RunSize" : [6],
+							"RunCount": 1230,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "B572",
+							"RunSize" : [6],
+							"RunCount": 711,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "F077",
+							"RunSize" : [6],
+							"RunCount": 456,
+							"Data" : "00"
+						}
+					]
+				},
+								{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662193174997,
+					"Edits": [
+						{
+							"OffsetHex": "CAF3",
+							"RunSize" : [6],
+							"RunCount": 3526,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896287865,
+					"Edits": [
+						{
+							"OffsetHex": "663F",
+							"RunSize" : [6],
+							"RunCount": 2020,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662193174996,
+					"Edits": [
+						{
+							"OffsetHex": "3BF2",
+							"RunSize" : [6],
+							"RunCount": 1097,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "7C3F",
+							"RunSize" : [6],
+							"RunCount": 477,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "A198",
+							"RunSize" : [6],
+							"RunCount": 294,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549856,
+					"Edits": [
+						{
+							"OffsetHex": "56D0",
+							"RunSize" : [6],
+							"RunCount": 787,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549857,
+					"Edits": [
+						{
+							"OffsetHex": "8EF2",
+							"RunSize" : [6],
+							"RunCount": 1575,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896272237,
+					"Edits": [
+						{
+							"OffsetHex": "73D6",
+							"RunSize" : [6],
+							"RunCount": 1181,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
 		{
 			"PatchTitle": "Invisible Abstergo Bow & Quiver",
 			"PatchDescription": "Renders Abstergo Bow & Quiver Invisible",
@@ -92,6 +280,1965 @@
 							"RunSize" : [6],
 							"RunCount": 64,
 							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549856,
+					"Edits": [
+						{
+							"OffsetHex": "56D0",
+							"RunSize" : [6],
+							"RunCount": 787,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549857,
+					"Edits": [
+						{
+							"OffsetHex": "8EF2",
+							"RunSize" : [6],
+							"RunCount": 1575,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896272237,
+					"Edits": [
+						{
+							"OffsetHex": "73D6",
+							"RunSize" : [6],
+							"RunCount": 1181,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Artemis Bow & Quiver",
+			"PatchDescription": "Renders Artemis Bow & Quiver Invisible",
+			"PatchID": "ACD_W_M_Bow_ArtemisBow and ACD_W_LGD_Quiver_E",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "1F97",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1662192516520,
+					"Edits": [
+						{
+							"OffsetHex": "EF6",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549856,
+					"Edits": [
+						{
+							"OffsetHex": "56D0",
+							"RunSize" : [6],
+							"RunCount": 787,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549857,
+					"Edits": [
+						{
+							"OffsetHex": "8EF2",
+							"RunSize" : [6],
+							"RunCount": 1575,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896272237,
+					"Edits": [
+						{
+							"OffsetHex": "73D6",
+							"RunSize" : [6],
+							"RunCount": 1181,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Basic Bows & Quivers",
+			"PatchDescription": "Renders Ashen, Bandit, Greek Reflex, Heavy, Hunter, Improved Hunter Bow, Precursor Reflex, Ornate, Recurve, Reflex, and Toxarchos Reflex Bows & Quivers invisible",
+			"PatchID": "ACD_W_M_Shotgun_Bow_06, 05, 01, 10, AlexiosBow, 09, 03; Quiver_A, B, C; ACD_W_Bow_DLC_ISUBow, ACD_W_Bow_DLC_ISUBow_Gameplay, ACD_W_M_Shotgun_Bow_01, and ACD_W_DLC_Quiver_ISU; ACD_W_M_Bow_AthenianBow and ACD_W_ULC_Quiver_Athenian",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "1DDF",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "1DF8",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "1E11",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "2046",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1662192516520,
+					"Edits": [
+						{
+							"OffsetHex": "F8C",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "1A86",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "1B27",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1662192516520,
+					"Edits": [
+						{
+							"OffsetHex": "C46",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1671364391826,
+					"Edits": [
+						{
+							"OffsetHex": "C1A0",
+							"RunSize" : [6],
+							"RunCount": 2282,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1671364391838,
+					"Edits": [
+						{
+							"OffsetHex": "7008",
+							"RunSize" : [6],
+							"RunCount": 1126,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1671364391701,
+					"Edits": [
+						{
+							"OffsetHex": "4483",
+							"RunSize" : [6],
+							"RunCount": 601,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "8987",
+							"RunSize" : [6],
+							"RunCount": 640,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "BAE5",
+							"RunSize" : [6],
+							"RunCount": 319,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1671364391946,
+					"Edits": [
+						{
+							"OffsetHex": "12AF4",
+							"RunCount": 2872,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1671364392018,
+					"Edits": [
+						{
+							"OffsetHex": "871C",
+							"RunCount": 1457,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1671364391703,
+					"Edits": [
+						{
+							"OffsetHex": "7B6B",
+							"RunCount": 1266,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "EF4D",
+							"RunCount": 804,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "13A0F",
+							"RunCount": 464,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1671364391706,
+					"Edits": [
+						{
+							"OffsetHex": "B18C",
+							"RunSize" : [6],
+							"RunCount": 1792,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1671364391718,
+					"Edits": [
+						{
+							"OffsetHex": "602C",
+							"RunSize" : [6],
+							"RunCount": 874,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1671364391696,
+					"Edits": [
+						{
+							"OffsetHex": "4103",
+							"RunSize" : [6],
+							"RunCount": 478,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "8555",
+							"RunSize" : [6],
+							"RunCount": 503,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "B281",
+							"RunSize" : [6],
+							"RunCount": 250,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662193063783,
+					"Edits": [
+						{
+							"OffsetHex": "BF9F",
+							"RunSize" : [6],
+							"RunCount": 3586,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896287777,
+					"Edits": [
+						{
+							"OffsetHex": "87AF",
+							"RunSize" : [6],
+							"RunCount": 2351,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662193063781,
+					"Edits": [
+						{
+							"OffsetHex": "5E8E",
+							"RunSize" : [6],
+							"RunCount": 1483,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "BD17",
+							"RunSize" : [6],
+							"RunCount": 676,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "EC20",
+							"RunSize" : [6],
+							"RunCount": 365,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1671364391778,
+					"Edits": [
+						{
+							"OffsetHex": "DC18",
+							"RunSize" : [6],
+							"RunCount": 2258,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1671364391790,
+					"Edits": [
+						{
+							"OffsetHex": "8FA4",
+							"RunSize" : [6],
+							"RunCount": 1098,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1671364391699,
+					"Edits": [
+						{
+							"OffsetHex": "50C3",
+							"RunSize" : [6],
+							"RunCount": 580,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "B325",
+							"RunSize" : [6],
+							"RunCount": 633,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "F099",
+							"RunSize" : [6],
+							"RunCount": 315,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1671364391730,
+					"Edits": [
+						{
+							"OffsetHex": "F4B4",
+							"RunSize" : [6],
+							"RunCount": 2654,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1671364391742,
+					"Edits": [
+						{
+							"OffsetHex": "69CC",
+							"RunSize" : [6],
+							"RunCount": 874,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1671364391700,
+					"Edits": [
+						{
+							"OffsetHex": "395B",
+							"RunSize" : [6],
+							"RunCount": 466,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "9211",
+							"RunSize" : [6],
+							"RunCount": 754,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "D17B",
+							"RunSize" : [6],
+							"RunCount": 377,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1529080459533,
+					"Edits": [
+						{
+							"OffsetHex": "4E33",
+							"RunSize" : [6],
+							"RunCount": 1522,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896287827,
+					"Edits": [
+						{
+							"OffsetHex": "3C13",
+							"RunSize" : [6],
+							"RunCount": 1140,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1529080459532,
+					"Edits": [
+						{
+							"OffsetHex": "2C2E",
+							"RunSize" : [6],
+							"RunCount": 760,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "5E5F",
+							"RunSize" : [6],
+							"RunCount": 380,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "7D58",
+							"RunSize" : [6],
+							"RunCount": 227,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662193117211,
+					"Edits": [
+						{
+							"OffsetHex": "4F0B",
+							"RunSize" : [6],
+							"RunCount": 1162,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896287802,
+					"Edits": [
+						{
+							"OffsetHex": "3C87",
+							"RunSize" : [6],
+							"RunCount": 1042,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662193117210,
+					"Edits": [
+						{
+							"OffsetHex": "33E6",
+							"RunSize" : [6],
+							"RunCount": 823,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "713B",
+							"RunSize" : [6],
+							"RunCount": 529,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "9DD8",
+							"RunSize" : [6],
+							"RunCount": 355,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 535855620568,
+					"Edits": [
+						{
+							"OffsetHex": "8498",
+							"RunSize" : [6],
+							"RunCount": 1906,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1671364391662,
+					"Edits": [
+						{
+							"OffsetHex": "4C28",
+							"RunSize" : [6],
+							"RunCount": 952,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1671364391668,
+					"Edits": [
+						{
+							"OffsetHex": "3F94",
+							"RunSize" : [6],
+							"RunCount": 762,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1671364391674,
+					"Edits": [
+						{
+							"OffsetHex": "2D88",
+							"RunSize" : [6],
+							"RunCount": 476,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1671364391680,
+					"Edits": [
+						{
+							"OffsetHex": "258C",
+							"RunSize" : [6],
+							"RunCount": 284,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 535855620564,
+					"Edits": [
+						{
+							"OffsetHex": "860F",
+							"RunSize" : [6],
+							"RunCount": 1906,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "1004D",
+							"RunSize" : [6],
+							"RunCount": 952,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "1579B",
+							"RunSize" : [6],
+							"RunCount": 762,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "19869",
+							"RunSize" : [6],
+							"RunCount": 476,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "1CA87",
+							"RunSize" : [6],
+							"RunCount": 284,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1671364391922,
+					"Edits": [
+						{
+							"OffsetHex": "A728",
+							"RunSize" : [6],
+							"RunCount": 1906,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1671364391970,
+					"Edits": [
+						{
+							"OffsetHex": "4ABC",
+							"RunSize" : [6],
+							"RunCount": 842,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1671364391702,
+					"Edits": [
+						{
+							"OffsetHex": "44BB",
+							"RunSize" : [6],
+							"RunCount": 734,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "8AAD",
+							"RunSize" : [6],
+							"RunCount": 506,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "BBDB",
+							"RunSize" : [6],
+							"RunCount": 306,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1671364391958,
+					"Edits": [
+						{
+							"OffsetHex": "A15C",
+							"RunSize" : [6],
+							"RunCount": 1992,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1671364392042,
+					"Edits": [
+						{
+							"OffsetHex": "6B54",
+							"RunSize" : [6],
+							"RunCount": 1172,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1671364391705,
+					"Edits": [
+						{
+							"OffsetHex": "4F97",
+							"RunSize" : [6],
+							"RunCount": 750,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "9499",
+							"RunSize" : [6],
+							"RunCount": 429,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "C4BD",
+							"RunSize" : [6],
+							"RunCount": 272,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549856,
+					"Edits": [
+						{
+							"OffsetHex": "56D0",
+							"RunSize" : [6],
+							"RunCount": 787,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549857,
+					"Edits": [
+						{
+							"OffsetHex": "8EF2",
+							"RunSize" : [6],
+							"RunCount": 1575,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896272237,
+					"Edits": [
+						{
+							"OffsetHex": "73D6",
+							"RunSize" : [6],
+							"RunCount": 1181,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Eros Bow & Quiver",
+			"PatchDescription": "Renders Eros Bow & Quiver Invisible",
+			"PatchID": "ACD_W_M_Bow_ErosBow and ACD_W_LGD_Quiver_F",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "1FB0",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1662192516520,
+					"Edits": [
+						{
+							"OffsetHex": "F0F",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549856,
+					"Edits": [
+						{
+							"OffsetHex": "56D0",
+							"RunSize" : [6],
+							"RunCount": 787,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549857,
+					"Edits": [
+						{
+							"OffsetHex": "8EF2",
+							"RunSize" : [6],
+							"RunCount": 1575,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896272237,
+					"Edits": [
+						{
+							"OffsetHex": "73D6",
+							"RunSize" : [6],
+							"RunCount": 1181,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Fanged/Viper Bow & Quiver",
+			"PatchDescription": "Renders Fanged/Viper Bow & Quiver Invisible",
+			"PatchID": "SnakeBow and Quiver_J",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1418930483602,
+					"Edits": [
+						{
+							"OffsetHex": "52F7",
+							"RunSize" : [6],
+							"RunCount": 1010,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "A44B",
+							"RunSize" : [6],
+							"RunCount": 632,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "DAB7",
+							"RunSize" : [6],
+							"RunCount": 378,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1637387651582,
+					"Edits": [
+						{
+							"OffsetHex": "B73A",
+							"RunSize" : [6],
+							"RunCount": 2528,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1671364376805,
+					"Edits": [
+						{
+							"OffsetHex": "61CE",
+							"RunSize" : [6],
+							"RunCount": 1264,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896317350,
+					"Edits": [
+						{
+							"OffsetHex": "8F43",
+							"RunSize" : [6],
+							"RunCount": 2590,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896317362,
+					"Edits": [
+						{
+							"OffsetHex": "87C3",
+							"RunSize" : [6],
+							"RunCount": 2444,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896317349,
+					"Edits": [
+						{
+							"OffsetHex": "6956",
+							"RunSize" : [6],
+							"RunCount": 1792,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "D757",
+							"RunSize" : [6],
+							"RunCount": 848,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "114AC",
+							"RunSize" : [6],
+							"RunCount": 422,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549856,
+					"Edits": [
+						{
+							"OffsetHex": "56D0",
+							"RunSize" : [6],
+							"RunCount": 787,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549857,
+					"Edits": [
+						{
+							"OffsetHex": "8EF2",
+							"RunSize" : [6],
+							"RunCount": 1575,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896272237,
+					"Edits": [
+						{
+							"OffsetHex": "73D6",
+							"RunSize" : [6],
+							"RunCount": 1181,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Helios Bow & Quiver",
+			"PatchDescription": "Renders Helios Bow & Quiver Invisible",
+			"PatchID": "ACD_W_ULC_Bow_Helios and ACD_W_ULC_Quiver_Helios",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "BD0",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1662192516520,
+					"Edits": [
+						{
+							"OffsetHex": "DDB",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549856,
+					"Edits": [
+						{
+							"OffsetHex": "56D0",
+							"RunSize" : [6],
+							"RunCount": 787,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549857,
+					"Edits": [
+						{
+							"OffsetHex": "8EF2",
+							"RunSize" : [6],
+							"RunCount": 1575,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896272237,
+					"Edits": [
+						{
+							"OffsetHex": "73D6",
+							"RunSize" : [6],
+							"RunCount": 1181,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Helot Bow & Quiver",
+			"PatchDescription": "Renders Helot Bow & Quiver invisible",
+			"PatchID": "ACD_W_ULC_Quiver_Spartan and ACD_W_M_Bow_SpartanBow",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1672912681271,
+					"Edits": [
+						{
+							"OffsetHex": "AA8C",
+							"RunSize" : [6],
+							"RunCount": 2584,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1672912681283,
+					"Edits": [
+						{
+							"OffsetHex": "5CAC",
+							"RunSize" : [6],
+							"RunCount": 1291,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1672912681270,
+					"Edits": [
+						{
+							"OffsetHex": "4DEB",
+							"RunSize" : [6],
+							"RunCount": 1033,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "9BBF",
+							"RunSize" : [6],
+							"RunCount": 646,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "CFFD",
+							"RunSize" : [6],
+							"RunCount": 386,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1672912714116,
+					"Edits": [
+						{
+							"OffsetHex": "A168",
+							"RunSize" : [6],
+							"RunCount": 2912,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1672912714128,
+					"Edits": [
+						{
+							"OffsetHex": "5D48",
+							"RunSize" : [6],
+							"RunCount": 1456,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1672912714115,
+					"Edits": [
+						{
+							"OffsetHex": "4F71",
+							"RunSize" : [6],
+							"RunCount": 1164,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "A8AF",
+							"RunSize" : [6],
+							"RunCount": 728,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "E609",
+							"RunSize" : [6],
+							"RunCount": 435,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1380405017845,
+					"Edits": [
+						{
+							"OffsetHex": "9586",
+							"RunSize" : [6],
+							"RunCount": 1720,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1380405017861,
+					"Edits": [
+						{
+							"OffsetHex": "5712",
+							"RunSize" : [6],
+							"RunCount": 840,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1380405017869,
+					"Edits": [
+						{
+							"OffsetHex": "3236",
+							"RunSize" : [6],
+							"RunCount": 425,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1382114322514,
+					"Edits": [
+						{
+							"OffsetHex": "2E46",
+							"RunSize" : [6],
+							"RunCount": 481,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1382114322521,
+					"Edits": [
+						{
+							"OffsetHex": "1B76",
+							"RunSize" : [6],
+							"RunCount": 240,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549856,
+					"Edits": [
+						{
+							"OffsetHex": "56D0",
+							"RunSize" : [6],
+							"RunCount": 787,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549857,
+					"Edits": [
+						{
+							"OffsetHex": "8EF2",
+							"RunSize" : [6],
+							"RunCount": 1575,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896272237,
+					"Edits": [
+						{
+							"OffsetHex": "73D6",
+							"RunSize" : [6],
+							"RunCount": 1181,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Herakles Bow & Quiver",
+			"PatchDescription": "Renders Herakles Bow & Quiver Invisible",
+			"PatchID": "ACD_W_M_Bow_HeraclesBow and ACD_W_LGD_Quiver_H",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "1FE2",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1662192516520,
+					"Edits": [
+						{
+							"OffsetHex": "F41",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549856,
+					"Edits": [
+						{
+							"OffsetHex": "56D0",
+							"RunSize" : [6],
+							"RunCount": 787,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549857,
+					"Edits": [
+						{
+							"OffsetHex": "8EF2",
+							"RunSize" : [6],
+							"RunCount": 1575,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896272237,
+					"Edits": [
+						{
+							"OffsetHex": "73D6",
+							"RunSize" : [6],
+							"RunCount": 1181,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Ikaros Bow & Quiver",
+			"PatchDescription": "Renders Ikaros Bow & Quiver Invisible",
+			"PatchID": "ACD_W_ULC_Bow_Ikaros and ACD_W_ULC_Quiver_Ikaros",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "C27",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1662192516520,
+					"Edits": [
+						{
+							"OffsetHex": "E62",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549856,
+					"Edits": [
+						{
+							"OffsetHex": "56D0",
+							"RunSize" : [6],
+							"RunCount": 787,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549857,
+					"Edits": [
+						{
+							"OffsetHex": "8EF2",
+							"RunSize" : [6],
+							"RunCount": 1575,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896272237,
+					"Edits": [
+						{
+							"OffsetHex": "73D6",
+							"RunSize" : [6],
+							"RunCount": 1181,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Odysseus Bow & Quiver",
+			"PatchDescription": "Renders Odysseus Bow & Quiver Invisible",
+			"PatchID": "ACD_W_Bow_DLC_Odysseus and ACD_W_DLC_Quiver_Odysseus",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "D09",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1662192516520,
+					"Edits": [
+						{
+							"OffsetHex": "AB1",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549856,
+					"Edits": [
+						{
+							"OffsetHex": "56D0",
+							"RunSize" : [6],
+							"RunCount": 787,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549857,
+					"Edits": [
+						{
+							"OffsetHex": "8EF2",
+							"RunSize" : [6],
+							"RunCount": 1575,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896272237,
+					"Edits": [
+						{
+							"OffsetHex": "73D6",
+							"RunSize" : [6],
+							"RunCount": 1181,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Paris Bow & Quiver",
+			"PatchDescription": "Renders Paris Bow & Quiver invisible",
+			"PatchID": "ACD_W_M_Bow_ParisBow and ACD_W_LGD_Quiver_I",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1637387651576,
+					"Edits": [
+						{
+							"OffsetHex": "1020A",
+							"RunSize" : [6],
+							"RunCount": 2850,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1671364376781,
+					"Edits": [
+						{
+							"OffsetHex": "74F2",
+							"RunSize" : [6],
+							"RunCount": 1089,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1394626873551,
+					"Edits": [
+						{
+							"OffsetHex": "6139",
+							"RunSize" : [6],
+							"RunCount": 858,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "BCC5",
+							"RunSize" : [6],
+							"RunCount": 577,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "F583",
+							"RunSize" : [6],
+							"RunCount": 315,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896302473,
+					"Edits": [
+						{
+							"OffsetHex": "870F",
+							"RunSize" : [6],
+							"RunCount": 2518,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896302485,
+					"Edits": [
+						{
+							"OffsetHex": "65B3",
+							"RunSize" : [6],
+							"RunCount": 1838,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896302472,
+					"Edits": [
+						{
+							"OffsetHex": "449E",
+							"RunSize" : [6],
+							"RunCount": 1110,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "88D3",
+							"RunSize" : [6],
+							"RunCount": 476,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "AFBC",
+							"RunSize" : [6],
+							"RunCount": 288,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549856,
+					"Edits": [
+						{
+							"OffsetHex": "56D0",
+							"RunSize" : [6],
+							"RunCount": 787,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549857,
+					"Edits": [
+						{
+							"OffsetHex": "8EF2",
+							"RunSize" : [6],
+							"RunCount": 1575,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896272237,
+					"Edits": [
+						{
+							"OffsetHex": "73D6",
+							"RunSize" : [6],
+							"RunCount": 1181,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Pessesh en Gerrehh Bow & Quiver",
+			"PatchDescription": "Renders Pessesh en Gerrehh Bow & Quiver Invisible",
+			"PatchID": "ACD_W_M_Bow_PesseshEnGerrehh and ACD_W_STORE_Quiver_PesseshEnGerrehh",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "1F33",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1662192516520,
+					"Edits": [
+						{
+							"OffsetHex": "FD7",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549856,
+					"Edits": [
+						{
+							"OffsetHex": "56D0",
+							"RunSize" : [6],
+							"RunCount": 787,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549857,
+					"Edits": [
+						{
+							"OffsetHex": "8EF2",
+							"RunSize" : [6],
+							"RunCount": 1575,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896272237,
+					"Edits": [
+						{
+							"OffsetHex": "73D6",
+							"RunSize" : [6],
+							"RunCount": 1181,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Steropes Bow & Quiver",
+			"PatchDescription": "Renders Steropes Bow & Quiver Invisible",
+			"PatchID": "SteropesBow and Quiver_Steropes",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_20\\DataPC_20_dlc.forge",
+					"FileID": 1755666767941,
+					"Edits": [
+						{
+							"OffsetHex": "CE95",
+							"RunSize" : [6],
+							"RunCount": 2532,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "17AF0",
+							"RunSize" : [6],
+							"RunCount": 1265,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "1F7E1",
+							"RunSize" : [6],
+							"RunCount": 1011,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "2526E",
+							"RunSize" : [6],
+							"RunCount": 633,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "28C7F",
+							"RunSize" : [6],
+							"RunCount": 379,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_20\\DataPC_20_dlc.forge",
+					"FileID": 1755666963086,
+					"Edits": [
+						{
+							"OffsetHex": "9423",
+							"RunSize" : [6],
+							"RunCount": 2664,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "136C6",
+							"RunSize" : [6],
+							"RunCount": 1331,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "1A2B9",
+							"RunSize" : [6],
+							"RunCount": 1065,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "1F37C",
+							"RunSize" : [6],
+							"RunCount": 666,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "229C3",
+							"RunSize" : [6],
+							"RunCount": 396,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549856,
+					"Edits": [
+						{
+							"OffsetHex": "56D0",
+							"RunSize" : [6],
+							"RunCount": 787,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549857,
+					"Edits": [
+						{
+							"OffsetHex": "8EF2",
+							"RunSize" : [6],
+							"RunCount": 1575,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896272237,
+					"Edits": [
+						{
+							"OffsetHex": "73D6",
+							"RunSize" : [6],
+							"RunCount": 1181,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Swift-Winged Bow & Quiver",
+			"PatchDescription": "Renders Swift-Winged Bow & Quiver Invisible",
+			"PatchID": "ACD_W_DLC_Bow_Elysium and ACD_W_DLC_Quiver_Elysium",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "B79",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1662192516520,
+					"Edits": [
+						{
+							"OffsetHex": "D54",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549856,
+					"Edits": [
+						{
+							"OffsetHex": "56D0",
+							"RunSize" : [6],
+							"RunCount": 787,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549857,
+					"Edits": [
+						{
+							"OffsetHex": "8EF2",
+							"RunSize" : [6],
+							"RunCount": 1575,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896272237,
+					"Edits": [
+						{
+							"OffsetHex": "73D6",
+							"RunSize" : [6],
+							"RunCount": 1181,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Thrakian Bow & Quiver",
+			"PatchDescription": "Renders Thrakian Bow & Quiver Invisible",
+			"PatchID": "ACD_W_M_Bow_DacianBow and ACD_W_CLUB_Quiver_Dacian",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "1F1A",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1662192516520,
+					"Edits": [
+						{
+							"OffsetHex": "FF0",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549856,
+					"Edits": [
+						{
+							"OffsetHex": "56D0",
+							"RunSize" : [6],
+							"RunCount": 787,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549857,
+					"Edits": [
+						{
+							"OffsetHex": "8EF2",
+							"RunSize" : [6],
+							"RunCount": 1575,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896272237,
+					"Edits": [
+						{
+							"OffsetHex": "73D6",
+							"RunSize" : [6],
+							"RunCount": 1181,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Vine Bow & Quiver",
+			"PatchDescription": "Renders Vine Bow & Quiver Invisible",
+			"PatchID": "ACD_W_M_Bow_WineBow and ACD_W_ULC_Quiver_Wine",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "1F4C",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1662192516520,
+					"Edits": [
+						{
+							"OffsetHex": "FBE",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
 						}
 					]
 				},

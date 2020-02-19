@@ -1,0 +1,83 @@
+{
+	"Format": "ForgerPatch2",
+	"GameEXE": "ACOdyssey",
+	"CollectionTitle": "Clean Back",
+	"CollectionVersion": 3.0,
+	"CollectionID": "Clean Back",
+	"Patches": [
+		{
+			"PatchTitle": "Invisible Helios Bow",
+			"PatchDescription": "Renders only Helios Bow Invisible",
+			"PatchID": "ACD_W_ULC_Bow_Helios",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "BD0",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Helios Bow & Arrows",
+			"PatchDescription": "Renders Helios Bow & Arrows Invisible",
+			"PatchID": "ACD_W_ULC_Bow_Helios",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "BD0",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549856,
+					"Edits": [
+						{
+							"OffsetHex": "56D0",
+							"RunSize" : [6],
+							"RunCount": 787,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549857,
+					"Edits": [
+						{
+							"OffsetHex": "8EF2",
+							"RunSize" : [6],
+							"RunCount": 1575,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896272237,
+					"Edits": [
+						{
+							"OffsetHex": "73D6",
+							"RunSize" : [6],
+							"RunCount": 1181,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		}
+	]
+}

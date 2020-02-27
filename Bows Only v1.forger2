@@ -1,0 +1,526 @@
+{
+	"Format": "ForgerPatch2",
+	"GameEXE": "ACOdyssey",
+	"CollectionTitle": "Bows Only",
+	"CollectionVersion": 1.0,
+	"CollectionID": "Bows Only",
+	"Patches": [
+		{
+			"PatchTitle": "Invisible Achilles Bow",
+			"PatchDescription": "Renders Achilles Bow invisible",
+			"PatchID": "ACD_W_M_Bow_AchillesBow",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "202D",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Big Horn Bow",
+			"PatchDescription": "Renders Big Horn Bow invisible",
+			"PatchID": "ACD_W_M_Bow_RedGoldBow",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "1F65",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Abstergo Bow",
+			"PatchDescription": "Renders Abstergo Bow Invisible",
+			"PatchID": "ACD_W_M_Bow_AbstergoBow-1800110805937",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "D60",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Artemis Bow",
+			"PatchDescription": "Renders Artemis Bow Invisible",
+			"PatchID": "ACD_W_M_Bow_ArtemisBow",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "1F97",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Basic Bows",
+			"PatchDescription": "Renders Ashen, Bandit, Greek Reflex, Heavy, Hunter, Improved Hunter Bow, Precursor Reflex, Ornate, Recurve, Reflex, and Toxarchos Reflex Bows invisible",
+			"PatchID": "ACD_W_M_Shotgun_Bow_06, 05, 01, 10, AlexiosBow, 09, 03, ACD_W_Bow_DLC_ISUBow, ACD_W_Bow_DLC_ISUBow_Gameplay, ACD_W_M_Bow_AthenianBow",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "1CB5",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "1D69",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "1CF3",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "1DF8",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "1E11",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "1DDF",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "1D2E",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "2046",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "1A86",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "1B27",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+			]
+		},
+		{
+			"PatchTitle": "Invisible Eros Bow",
+			"PatchDescription": "Renders Eros Bow Invisible",
+			"PatchID": "ACD_W_M_Bow_ErosBow",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "1FB0",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Fanged/Viper Bow",
+			"PatchDescription": "Renders Fanged/Viper Bow Invisible",
+			"PatchID": "SnakeBow",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "2014",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Helios Bow & Quiver",
+			"PatchDescription": "Renders Helios Bow & Quiver Invisible",
+			"PatchID": "ACD_W_ULC_Bow_Helios and ACD_W_ULC_Quiver_Helios",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "BD0",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Helot Bow",
+			"PatchDescription": "Renders Helot Bow invisible",
+			"PatchID": "ACD_W_M_Bow_SpartanBow",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "205F",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Herakles Bow",
+			"PatchDescription": "Renders Herakles Bow Invisible",
+			"PatchID": "ACD_W_M_Bow_HeraclesBow",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "1FE2",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Ikaros Bow",
+			"PatchDescription": "Renders Ikaros Bow Invisible",
+			"PatchID": "ACD_W_ULC_Bow_Ikaros",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "C27",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Odysseus Bow",
+			"PatchDescription": "Renders Odysseus Bow Invisible",
+			"PatchID": "ACD_W_Bow_DLC_Odysseus",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "D09",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Paris Bow",
+			"PatchDescription": "Renders Paris Bow invisible",
+			"PatchID": "ACD_W_M_Bow_ParisBow",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "1FFB",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Pessesh en Gerrehh Bow",
+			"PatchDescription": "Renders Pessesh en Gerrehh Bow Invisible",
+			"PatchID": "ACD_W_M_Bow_PesseshEnGerrehh",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "1F33",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Steropes Bow",
+			"PatchDescription": "Renders Steropes Bow Invisible",
+			"PatchID": "ACD_W_DLC_Bow_Steropes and ACD_W_DLC_Bow_Steropes_Corrupted",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "C98",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "DB7",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Swift-Winged Bow",
+			"PatchDescription": "Renders Swift-Winged Bow Invisible",
+			"PatchID": "ACD_W_DLC_Bow_Elysium",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "B79",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Thrakian Bow",
+			"PatchDescription": "Renders Thrakian Bow Invisible",
+			"PatchID": "ACD_W_M_Bow_DacianBow",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "1F1A",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Vine Bow",
+			"PatchDescription": "Renders Vine Bow Invisible",
+			"PatchID": "ACD_W_M_Bow_WineBow",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1556379682301,
+					"Edits": [
+						{
+							"OffsetHex": "1F4C",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Quiver Arrows",
+			"PatchDescription": "Renders Arrows Inside Quiver Invisible",
+			"PatchID": "ACD_W_SHR_Arrow_A",
+			"PatchVersion": 1,
+			"Targets": [
+
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549856,
+					"Edits": [
+						{
+							"OffsetHex": "56D0",
+							"RunSize" : [6],
+							"RunCount": 787,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549857,
+					"Edits": [
+						{
+							"OffsetHex": "8EF2",
+							"RunSize" : [6],
+							"RunCount": 1575,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896272237,
+					"Edits": [
+						{
+							"OffsetHex": "73D6",
+							"RunSize" : [6],
+							"RunCount": 1181,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "No Spear",
+			"PatchDescription": "Renders Spear of Leonidas Invisible",
+			"PatchID": "No spear by hypermorphic",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1603947204681,
+					"Edits": [
+						{
+							"OffsetHex": "2E4",
+							"RunCount": 6,
+							"Skip": [78],
+							"Data" : "00000000000000"
+						}
+					]
+				}
+			]
+		}
+	]
+}

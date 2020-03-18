@@ -1,0 +1,113 @@
+{
+	"Format": "ForgerPatch2",
+	"GameEXE": "ACOdyssey",
+	"CollectionTitle": "Player Armor Customizations",
+	"CollectionVersion": 1,
+	"CollectionID": "Player Armor Customizations",
+	"Patches": [
+		{
+			"PatchTitle": "Helios God Ray",
+			"PatchDescription": "Renders Helios God Ray invisible",
+			"PatchID": "ACD_CHM_PLA_H403_B01_HeliosGodRay-1898722034658",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_54\\DataPC_54_dlc.forge",
+					"FileID": 1898722034658,
+					"Edits": [
+						{
+							"OffsetHex": "1D778",
+							"RunSize" : [6],
+							"RunCount": 2498,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Ikaros Mask",
+			"PatchDescription": "Renders Mask from Ikaros Armor invisible",
+			"PatchID": "ACD_CHM_PLA_H404_B01_IkarosMask",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_55\\DataPC_55_dlc.forge",
+					"FileID": 1914582673380,
+					"Edits": [
+						{
+							"OffsetHex": "E8DA",
+							"RunSize" : [6],
+							"RunCount": 1042,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "1CA26",
+							"RunSize" : [6],
+							"RunCount": 520,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "1F498",
+							"RunSize" : [6],
+							"RunCount": 415,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "212F4",
+							"RunSize" : [6],
+							"RunCount": 260,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "2271E",
+							"RunSize" : [6],
+							"RunCount": 155,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Ezio Shoulder Guard",
+			"PatchDescription": "Renders Shoulder Guard from Ezio Armor invisible",
+			"PatchID": "ACD_CHM_PLA_T500_A01_ShoulderEzio",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_56\\DataPC_56_dlc.forge",
+					"FileID": 1967611454746,
+					"Edits": [
+						{
+							"OffsetHex": "4B88B",
+							"RunSize" : [6],
+							"RunCount": 6638,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Ezio Cape",
+			"PatchDescription": "Renders Cape from Ezio Armor invisible",
+			"PatchID": "ACD_CHM_PLA_T500_A02_CapeEzio",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_56\\DataPC_56_dlc.forge",
+					"FileID": 1967611458878,
+					"Edits": [
+						{
+							"OffsetHex": "1E8A6",
+							"RunSize" : [6],
+							"RunCount": 2704,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -6,6 +6,46 @@
 	"CollectionID": "Player Armor Customizations",
 	"Patches": [
 		{
+			"PatchTitle": "Ezio Shoulder Guard",
+			"PatchDescription": "Renders Shoulder Guard from Ezio Armor invisible",
+			"PatchID": "ACD_CHM_PLA_T500_A01_ShoulderEzio",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_56\\DataPC_56_dlc.forge",
+					"FileID": 1967611454746,
+					"Edits": [
+						{
+							"OffsetHex": "4B88B",
+							"RunSize" : [6],
+							"RunCount": 6638,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Ezio Cape",
+			"PatchDescription": "Renders Cape from Ezio Armor invisible",
+			"PatchID": "ACD_CHM_PLA_T500_A02_CapeEzio",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_56\\DataPC_56_dlc.forge",
+					"FileID": 1967611458878,
+					"Edits": [
+						{
+							"OffsetHex": "1E8A6",
+							"RunSize" : [6],
+							"RunCount": 2704,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
 			"PatchTitle": "Helios God Ray",
 			"PatchDescription": "Renders Helios God Ray invisible",
 			"PatchID": "ACD_CHM_PLA_H403_B01_HeliosGodRay-1898722034658",
@@ -70,19 +110,79 @@
 			]
 		},
 		{
-			"PatchTitle": "Ezio Shoulder Guard",
-			"PatchDescription": "Renders Shoulder Guard from Ezio Armor invisible",
-			"PatchID": "ACD_CHM_PLA_T500_A01_ShoulderEzio",
+			"PatchTitle": "Oracle Bandana",
+			"PatchDescription": "Renders Oracle Bandana invisible",
+			"PatchID": "ACD_CHM_PLA_H401_B01_BandanaOracle & ACD_CHM_PLA_H401_B02_BandanaOracle",
 			"PatchVersion": 1,
 			"Targets": [
 				{
-					"File": "dlc_56\\DataPC_56_dlc.forge",
-					"FileID": 1967611454746,
+					"File": "dlc_52\\DataPC_52_dlc.forge",
+					"FileID": 1877214640666,
 					"Edits": [
 						{
-							"OffsetHex": "4B88B",
+							"OffsetHex": "296D8",
 							"RunSize" : [6],
-							"RunCount": 6638,
+							"RunCount": 245,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "610F1",
+							"RunSize" : [6],
+							"RunCount": 910,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "64416",
+							"RunSize" : [6],
+							"RunCount": 552,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "6629F",
+							"RunSize" : [6],
+							"RunCount": 190,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "66F58",
+							"RunSize" : [6],
+							"RunCount": 62,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_52\\DataPC_52_dlc.forge",
+					"FileID": 1877214878159,
+					"Edits": [
+						{
+							"OffsetHex": "39E80",
+							"RunSize" : [6],
+							"RunCount": 1078,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "7138B",
+							"RunSize" : [6],
+							"RunCount": 807,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "753BE",
+							"RunSize" : [6],
+							"RunCount": 539,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "77F53",
+							"RunSize" : [6],
+							"RunCount": 268,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "79B84",
+							"RunSize" : [6],
+							"RunCount": 160,
 							"Data" : "00"
 						}
 					]
@@ -90,19 +190,103 @@
 			]
 		},
 		{
-			"PatchTitle": "Ezio Cape",
-			"PatchDescription": "Renders Cape from Ezio Armor invisible",
-			"PatchID": "ACD_CHM_PLA_T500_A02_CapeEzio",
+			"PatchTitle": "Oracle Shoulder Cloth",
+			"PatchDescription": "Renders Oracle Shoulder Cloth invisible",
+			"PatchID": "ACD_CHM_PLA_T401_C01_ShouldersOracle & ACD_CHM_PLA_T401_D01_ShouldersOracle",
 			"PatchVersion": 1,
 			"Targets": [
 				{
-					"File": "dlc_56\\DataPC_56_dlc.forge",
-					"FileID": 1967611458878,
+					"File": "dlc_52\\DataPC_52_dlc.forge",
+					"FileID": 1877214655515,
 					"Edits": [
 						{
-							"OffsetHex": "1E8A6",
+							"OffsetHex": "777A5",
 							"RunSize" : [6],
-							"RunCount": 2704,
+							"RunCount": 5081,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "D498E",
+							"RunSize" : [6],
+							"RunCount": 3888,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "F11A7",
+							"RunSize" : [6],
+							"RunCount": 2445,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "103A45",
+							"RunSize" : [6],
+							"RunCount": 1321,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "10FD13",
+							"RunSize" : [6],
+							"RunCount": 776,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_52\\DataPC_52_dlc.forge",
+					"FileID": 1877214655582,
+					"Edits": [
+						{
+							"OffsetHex": "16BC9",
+							"RunSize" : [6],
+							"RunCount": 1356,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_52\\DataPC_52_dlc.forge",
+					"FileID": 1877214655713,
+					"Edits": [
+						{
+							"OffsetHex": "12C5B",
+							"RunSize" : [6],
+							"RunCount": 843,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_52\\DataPC_52_dlc.forge",
+					"FileID": 1877214655738,
+					"Edits": [
+						{
+							"OffsetHex": "4BD1",
+							"RunSize" : [6],
+							"RunCount": 548,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_52\\DataPC_52_dlc.forge",
+					"FileID": 1877214655746,
+					"Edits": [
+						{
+							"OffsetHex": "23B0",
+							"RunSize" : [6],
+							"RunCount": 216,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_52\\DataPC_52_dlc.forge",
+					"FileID": 1877214655754,
+					"Edits": [
+						{
+							"OffsetHex": "16C8",
+							"RunSize" : [6],
+							"RunCount": 114,
 							"Data" : "00"
 						}
 					]

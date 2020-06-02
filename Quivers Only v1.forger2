@@ -1,0 +1,1058 @@
+{
+	"Format": "ForgerPatch2",
+	"GameEXE": "ACOdyssey",
+	"CollectionTitle": "Quivers Only",
+	"CollectionVersion": 1.0,
+	"CollectionID": "Quivers Only",
+	"Patches": [
+		{
+			"PatchTitle": "Invisible Achilles and Big Horn Quivers",
+			"PatchDescription": "Renders Achilles and Big Horn Quivers invisible",
+			"PatchID": "ACD_W_M_Bow_RedGoldBow, ACD_W_M_Bow_AchillesBow, and ACD_W_LGD_Quiver_D",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1662192516520,
+					"Edits": [
+						{
+							"OffsetHex": "EDD",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549856,
+					"Edits": [
+						{
+							"OffsetHex": "56D0",
+							"RunSize" : [6],
+							"RunCount": 787,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549857,
+					"Edits": [
+						{
+							"OffsetHex": "8EF2",
+							"RunSize" : [6],
+							"RunCount": 1575,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896272237,
+					"Edits": [
+						{
+							"OffsetHex": "73D6",
+							"RunSize" : [6],
+							"RunCount": 1181,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Abstergo Quiver",
+			"PatchDescription": "Renders Abstergo Quiver Invisible",
+			"PatchID": "ACD_W_DLC_Quiver_Abstergo-1823394388812 and ACD_W_M_Bow_AbstergoBow-1800110805937",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_29\\DataPC_29_dlc.forge",
+					"FileID": 1823394388812,
+					"Edits": [
+						{
+							"OffsetHex": "AB3F",
+							"RunSize" : [6],
+							"RunCount": 3064,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "16892",
+							"RunSize" : [6],
+							"RunCount": 1532,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "1EAE9",
+							"RunSize" : [6],
+							"RunCount": 1224,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "24D9C",
+							"RunSize" : [6],
+							"RunCount": 765,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "28FA7",
+							"RunSize" : [6],
+							"RunCount": 458,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549856,
+					"Edits": [
+						{
+							"OffsetHex": "56D0",
+							"RunSize" : [6],
+							"RunCount": 787,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549857,
+					"Edits": [
+						{
+							"OffsetHex": "8EF2",
+							"RunSize" : [6],
+							"RunCount": 1575,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896272237,
+					"Edits": [
+						{
+							"OffsetHex": "73D6",
+							"RunSize" : [6],
+							"RunCount": 1181,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Artemis Quiver",
+			"PatchDescription": "Renders Artemis Quiver Invisible",
+			"PatchID": "ACD_W_M_Bow_ArtemisBow and ACD_W_LGD_Quiver_E",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1662192516520,
+					"Edits": [
+						{
+							"OffsetHex": "EF6",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549856,
+					"Edits": [
+						{
+							"OffsetHex": "56D0",
+							"RunSize" : [6],
+							"RunCount": 787,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549857,
+					"Edits": [
+						{
+							"OffsetHex": "8EF2",
+							"RunSize" : [6],
+							"RunCount": 1575,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896272237,
+					"Edits": [
+						{
+							"OffsetHex": "73D6",
+							"RunSize" : [6],
+							"RunCount": 1181,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Basic Quivers",
+			"PatchDescription": "Renders Ashen, Bandit, Greek Reflex, Heavy, Hunter, Improved Hunter Bow, Precursor Reflex, Ornate, Recurve, Reflex, and Toxarchos Reflex Quivers invisible",
+			"PatchID": "ACD_W_M_Shotgun_Bow_06, 05, 01, 10, AlexiosBow, 09, 03; Quiver_A, B, C; ACD_W_Bow_DLC_ISUBow, ACD_W_Bow_DLC_ISUBow_Gameplay, ACD_W_M_Shotgun_Bow_01, and ACD_W_DLC_Quiver_ISU; ACD_W_M_Bow_AthenianBow and ACD_W_ULC_Quiver_Athenian",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1662192516520,
+					"Edits": [
+						{
+							"OffsetHex": "E92",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1662192516520,
+					"Edits": [
+						{
+							"OffsetHex": "EAB",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1662192516520,
+					"Edits": [
+						{
+							"OffsetHex": "EC4",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1662192516520,
+					"Edits": [
+						{
+							"OffsetHex": "C46",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1662192516520,
+					"Edits": [
+						{
+							"OffsetHex": "F8C",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549856,
+					"Edits": [
+						{
+							"OffsetHex": "56D0",
+							"RunSize" : [6],
+							"RunCount": 787,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549857,
+					"Edits": [
+						{
+							"OffsetHex": "8EF2",
+							"RunSize" : [6],
+							"RunCount": 1575,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896272237,
+					"Edits": [
+						{
+							"OffsetHex": "73D6",
+							"RunSize" : [6],
+							"RunCount": 1181,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Eros Quiver",
+			"PatchDescription": "Renders Eros Quiver Invisible",
+			"PatchID": "ACD_W_M_Bow_ErosBow and ACD_W_LGD_Quiver_F",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1662192516520,
+					"Edits": [
+						{
+							"OffsetHex": "F0F",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549856,
+					"Edits": [
+						{
+							"OffsetHex": "56D0",
+							"RunSize" : [6],
+							"RunCount": 787,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549857,
+					"Edits": [
+						{
+							"OffsetHex": "8EF2",
+							"RunSize" : [6],
+							"RunCount": 1575,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896272237,
+					"Edits": [
+						{
+							"OffsetHex": "73D6",
+							"RunSize" : [6],
+							"RunCount": 1181,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Fanged/Viper Quiver",
+			"PatchDescription": "Renders Fanged/Viper Quiver Invisible",
+			"PatchID": "SnakeBow and Quiver_J",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1662192516520,
+					"Edits": [
+						{
+							"OffsetHex": "F73",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549856,
+					"Edits": [
+						{
+							"OffsetHex": "56D0",
+							"RunSize" : [6],
+							"RunCount": 787,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549857,
+					"Edits": [
+						{
+							"OffsetHex": "8EF2",
+							"RunSize" : [6],
+							"RunCount": 1575,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896272237,
+					"Edits": [
+						{
+							"OffsetHex": "73D6",
+							"RunSize" : [6],
+							"RunCount": 1181,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Helios Quiver",
+			"PatchDescription": "Renders Helios Quiver Invisible",
+			"PatchID": "ACD_W_ULC_Bow_Helios and ACD_W_ULC_Quiver_Helios",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1662192516520,
+					"Edits": [
+						{
+							"OffsetHex": "DDB",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549856,
+					"Edits": [
+						{
+							"OffsetHex": "56D0",
+							"RunSize" : [6],
+							"RunCount": 787,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549857,
+					"Edits": [
+						{
+							"OffsetHex": "8EF2",
+							"RunSize" : [6],
+							"RunCount": 1575,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896272237,
+					"Edits": [
+						{
+							"OffsetHex": "73D6",
+							"RunSize" : [6],
+							"RunCount": 1181,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Helot Quiver",
+			"PatchDescription": "Renders Helot Quiver invisible",
+			"PatchID": "ACD_W_ULC_Quiver_Spartan and ACD_W_M_Bow_SpartanBow",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1662192516520,
+					"Edits": [
+						{
+							"OffsetHex": "FA5",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549856,
+					"Edits": [
+						{
+							"OffsetHex": "56D0",
+							"RunSize" : [6],
+							"RunCount": 787,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549857,
+					"Edits": [
+						{
+							"OffsetHex": "8EF2",
+							"RunSize" : [6],
+							"RunCount": 1575,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896272237,
+					"Edits": [
+						{
+							"OffsetHex": "73D6",
+							"RunSize" : [6],
+							"RunCount": 1181,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Herakles Quiver",
+			"PatchDescription": "Renders Herakles Quiver Invisible",
+			"PatchID": "ACD_W_M_Bow_HeraclesBow and ACD_W_LGD_Quiver_H",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1662192516520,
+					"Edits": [
+						{
+							"OffsetHex": "F41",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549856,
+					"Edits": [
+						{
+							"OffsetHex": "56D0",
+							"RunSize" : [6],
+							"RunCount": 787,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549857,
+					"Edits": [
+						{
+							"OffsetHex": "8EF2",
+							"RunSize" : [6],
+							"RunCount": 1575,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896272237,
+					"Edits": [
+						{
+							"OffsetHex": "73D6",
+							"RunSize" : [6],
+							"RunCount": 1181,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Ikaros Quiver",
+			"PatchDescription": "Renders Ikaros Quiver Invisible",
+			"PatchID": "ACD_W_ULC_Bow_Ikaros and ACD_W_ULC_Quiver_Ikaros",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1662192516520,
+					"Edits": [
+						{
+							"OffsetHex": "E62",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549856,
+					"Edits": [
+						{
+							"OffsetHex": "56D0",
+							"RunSize" : [6],
+							"RunCount": 787,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549857,
+					"Edits": [
+						{
+							"OffsetHex": "8EF2",
+							"RunSize" : [6],
+							"RunCount": 1575,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896272237,
+					"Edits": [
+						{
+							"OffsetHex": "73D6",
+							"RunSize" : [6],
+							"RunCount": 1181,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Odysseus Quiver",
+			"PatchDescription": "Renders Odysseus Quiver Invisible",
+			"PatchID": "ACD_W_Bow_DLC_Odysseus and ACD_W_DLC_Quiver_Odysseus",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1662192516520,
+					"Edits": [
+						{
+							"OffsetHex": "AB1",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549856,
+					"Edits": [
+						{
+							"OffsetHex": "56D0",
+							"RunSize" : [6],
+							"RunCount": 787,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549857,
+					"Edits": [
+						{
+							"OffsetHex": "8EF2",
+							"RunSize" : [6],
+							"RunCount": 1575,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896272237,
+					"Edits": [
+						{
+							"OffsetHex": "73D6",
+							"RunSize" : [6],
+							"RunCount": 1181,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Paris Quiver",
+			"PatchDescription": "Renders Paris Quiver invisible",
+			"PatchID": "ACD_W_M_Bow_ParisBow and ACD_W_LGD_Quiver_I",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1662192516520,
+					"Edits": [
+						{
+							"OffsetHex": "F5A",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549856,
+					"Edits": [
+						{
+							"OffsetHex": "56D0",
+							"RunSize" : [6],
+							"RunCount": 787,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549857,
+					"Edits": [
+						{
+							"OffsetHex": "8EF2",
+							"RunSize" : [6],
+							"RunCount": 1575,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896272237,
+					"Edits": [
+						{
+							"OffsetHex": "73D6",
+							"RunSize" : [6],
+							"RunCount": 1181,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Pessesh en Gerrehh Quiver",
+			"PatchDescription": "Renders Pessesh en Gerrehh Quiver Invisible",
+			"PatchID": "ACD_W_M_Bow_PesseshEnGerrehh and ACD_W_STORE_Quiver_PesseshEnGerrehh",
+			"PatchVersion": 1,
+			"Targets": [
+								{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1662192516520,
+					"Edits": [
+						{
+							"OffsetHex": "FD7",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549856,
+					"Edits": [
+						{
+							"OffsetHex": "56D0",
+							"RunSize" : [6],
+							"RunCount": 787,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549857,
+					"Edits": [
+						{
+							"OffsetHex": "8EF2",
+							"RunSize" : [6],
+							"RunCount": 1575,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896272237,
+					"Edits": [
+						{
+							"OffsetHex": "73D6",
+							"RunSize" : [6],
+							"RunCount": 1181,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Steropes Quiver",
+			"PatchDescription": "Renders Steropes Quiver Invisible",
+			"PatchID": "SteropesBow and Quiver_Steropes",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_20\\DataPC_20_dlc.forge",
+					"FileID": 1755666963086,
+					"Edits": [
+						{
+							"OffsetHex": "9423",
+							"RunSize" : [6],
+							"RunCount": 2664,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "136C6",
+							"RunSize" : [6],
+							"RunCount": 1331,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "1A2B9",
+							"RunSize" : [6],
+							"RunCount": 1065,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "1F37C",
+							"RunSize" : [6],
+							"RunCount": 666,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "229C3",
+							"RunSize" : [6],
+							"RunCount": 396,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549856,
+					"Edits": [
+						{
+							"OffsetHex": "56D0",
+							"RunSize" : [6],
+							"RunCount": 787,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549857,
+					"Edits": [
+						{
+							"OffsetHex": "8EF2",
+							"RunSize" : [6],
+							"RunCount": 1575,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896272237,
+					"Edits": [
+						{
+							"OffsetHex": "73D6",
+							"RunSize" : [6],
+							"RunCount": 1181,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Swift-Winged Quiver",
+			"PatchDescription": "Renders Swift-Winged Quiver Invisible",
+			"PatchID": "ACD_W_DLC_Bow_Elysium and ACD_W_DLC_Quiver_Elysium",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1662192516520,
+					"Edits": [
+						{
+							"OffsetHex": "D54",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549856,
+					"Edits": [
+						{
+							"OffsetHex": "56D0",
+							"RunSize" : [6],
+							"RunCount": 787,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549857,
+					"Edits": [
+						{
+							"OffsetHex": "8EF2",
+							"RunSize" : [6],
+							"RunCount": 1575,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896272237,
+					"Edits": [
+						{
+							"OffsetHex": "73D6",
+							"RunSize" : [6],
+							"RunCount": 1181,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Thrakian Quiver",
+			"PatchDescription": "Renders Thrakian Quiver Invisible",
+			"PatchID": "ACD_W_M_Bow_DacianBow and ACD_W_CLUB_Quiver_Dacian",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1662192516520,
+					"Edits": [
+						{
+							"OffsetHex": "FF0",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549856,
+					"Edits": [
+						{
+							"OffsetHex": "56D0",
+							"RunSize" : [6],
+							"RunCount": 787,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549857,
+					"Edits": [
+						{
+							"OffsetHex": "8EF2",
+							"RunSize" : [6],
+							"RunCount": 1575,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896272237,
+					"Edits": [
+						{
+							"OffsetHex": "73D6",
+							"RunSize" : [6],
+							"RunCount": 1181,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Invisible Vine Quiver",
+			"PatchDescription": "Renders Vine Quiver Invisible",
+			"PatchID": "ACD_W_M_Bow_WineBow and ACD_W_ULC_Quiver_Wine",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1662192516520,
+					"Edits": [
+						{
+							"OffsetHex": "FBE",
+							"RunCount" : 1,
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549856,
+					"Edits": [
+						{
+							"OffsetHex": "56D0",
+							"RunSize" : [6],
+							"RunCount": 787,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549857,
+					"Edits": [
+						{
+							"OffsetHex": "8EF2",
+							"RunSize" : [6],
+							"RunCount": 1575,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896272237,
+					"Edits": [
+						{
+							"OffsetHex": "73D6",
+							"RunSize" : [6],
+							"RunCount": 1181,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "No Spear",
+			"PatchDescription": "Renders Spear of Leonidas Invisible",
+			"PatchID": "No spear by hypermorphic",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1603947204681,
+					"Edits": [
+						{
+							"OffsetHex": "2E4",
+							"RunCount": 6,
+							"Skip": [78],
+							"Data" : "00000000000000"
+						}
+					]
+				}
+			]
+		}
+	]
+}

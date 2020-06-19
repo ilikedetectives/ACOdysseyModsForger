@@ -1,0 +1,1285 @@
+{
+	"Format": "ForgerPatch2",
+	"GameEXE": "ACOdyssey",
+	"CollectionTitle": "Player Armor Extra Customizations",
+	"CollectionVersion": 1,
+	"CollectionID": "Player Armor Extra Customizations",
+	"Patches": [
+		{
+			"PatchTitle": "Achilles/Champion Shoulder Pads Removal",
+			"PatchDescription": "Removes Achilles/Champion Shoulder Pads",
+			"PatchID": "ACD_CHM_PLA_T43_ShouldersAchilles",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_43\\DataPC_ACD_Greece_43_dlc.forge",
+					"FileID": 1655638048708,
+					"Edits": [
+						{
+							"OffsetHex": "339B4",
+							"RunSize" : [6],
+							"RunCount": 2752,
+							"Data" : "00"
+						}
+				    ]   
+				},
+				{
+					"File": "dlc_43\\DataPC_ACD_Greece_43_dlc.forge",
+					"FileID": 1657723594828,
+					"Edits": [
+						{
+							"OffsetHex": "2CE8A",
+							"RunSize" : [6],
+							"RunCount": 2392,
+							"Data" : "00"
+						}
+				    ]   
+				},
+				{
+					"File": "dlc_43\\DataPC_ACD_Greece_43_dlc.forge",
+					"FileID": 1657723594834,
+					"Edits": [
+						{
+							"OffsetHex": "CBC6",
+							"RunSize" : [6],
+							"RunCount": 1592,
+							"Data" : "00"
+						}
+				    ]   
+				},
+				{
+					"File": "dlc_43\\DataPC_ACD_Greece_43_dlc.forge",
+					"FileID": 1657723594840,
+					"Edits": [
+						{
+							"OffsetHex": "8BC3",
+							"RunSize" : [6],
+							"RunCount": 924,
+							"Data" : "00"
+						}
+				    ]   
+				},
+				{
+					"File": "dlc_43\\DataPC_ACD_Greece_43_dlc.forge",
+					"FileID": 1657723594846,
+					"Edits": [
+						{
+							"OffsetHex": "27B5",
+							"RunSize" : [6],
+							"RunCount": 258,
+							"Data" : "00"
+						},
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Ezio Shoulder Guard",
+			"PatchDescription": "Renders Shoulder Guard from Ezio Armor invisible",
+			"PatchID": "ACD_CHM_PLA_T500_A01_ShoulderEzio",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_56\\DataPC_56_dlc.forge",
+					"FileID": 1967611454746,
+					"Edits": [
+						{
+							"OffsetHex": "4B88B",
+							"RunSize" : [6],
+							"RunCount": 6638,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Ezio Cape",
+			"PatchDescription": "Renders Cape from Ezio Armor invisible",
+			"PatchID": "ACD_CHM_PLA_T500_A02_CapeEzio",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_56\\DataPC_56_dlc.forge",
+					"FileID": 1967611458878,
+					"Edits": [
+						{
+							"OffsetHex": "1E8A6",
+							"RunSize" : [6],
+							"RunCount": 2704,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "First Civilization/Asphodel Crown",
+			"PatchDescription": "Removes the helmet from the First Civ hood",
+			"PatchID": "ACD_CHM_PLA_H321_A01_HelmetElysium",
+			"PatchVersion": 2,
+			"Targets": [
+				{
+					"File": "dlc_34\\DataPC_34_dlc.forge",
+					"FileID": 1858362057721,
+					"Edits": [
+						{
+							"OffsetHex": "12D67",
+							"RunSize" : [6],
+							"RunCount": 1632,
+							"Data" : "00"
+						}
+				    ]   
+				},
+				{
+					"File": "dlc_34\\DataPC_34_dlc.forge",
+					"FileID": 1858362057803,
+					"Edits": [
+						{
+							"OffsetHex": "2F3FD",
+							"RunSize" : [6],
+							"RunCount": 1009,
+							"Data" : "00"
+						}
+				    ]   
+				},
+				{
+					"File": "dlc_34\\DataPC_34_dlc.forge",
+					"FileID": 1858362057828,
+					"Edits": [
+						{
+							"OffsetHex": "27CF",
+							"RunSize" : [6],
+							"RunCount": 640,
+							"Data" : "00"
+						}
+				    ]   
+				},
+				{
+					"File": "dlc_34\\DataPC_34_dlc.forge",
+					"FileID": 1858362057836,
+					"Edits": [
+						{
+							"OffsetHex": "1997",
+							"RunSize" : [6],
+							"RunCount": 320,
+							"Data" : "00"
+						}
+				    ]   
+				},
+				{
+					"File": "dlc_34\\DataPC_34_dlc.forge",
+					"FileID": 1858362057844,
+					"Edits": [
+						{
+							"OffsetHex": "F6F",
+							"RunSize" : [6],
+							"RunCount": 192,
+							"Data" : "00"
+						},
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Helios God Ray",
+			"PatchDescription": "Renders Helios God Ray invisible",
+			"PatchID": "ACD_CHM_PLA_H403_B01_HeliosGodRay-1898722034658",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_54\\DataPC_54_dlc.forge",
+					"FileID": 1898722034658,
+					"Edits": [
+						{
+							"OffsetHex": "1D778",
+							"RunSize" : [6],
+							"RunCount": 2498,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Herakles Shoulder Guard",
+			"PatchDescription": "Renders Shoulder Guard from Herakles Armor invisible",
+			"PatchID": "ACD_CHM_PLA_T400_A01_HeraklesShoulders",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_45\\DataPC_45_dlc.forge",
+					"FileID": 1874015637414,
+					"Edits": [
+						{
+							"OffsetHex": "2A887",
+							"RunSize" : [6],
+							"RunCount": 2226,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "4D033",
+							"RunSize" : [6],
+							"RunCount": 1403,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "52E93",
+							"RunSize" : [6],
+							"RunCount": 588,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "56239",
+							"RunSize" : [6],
+							"RunCount": 270,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "588D7",
+							"RunSize" : [6],
+							"RunCount": 210,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Ikaros Mask",
+			"PatchDescription": "Renders Mask from Ikaros Armor invisible",
+			"PatchID": "ACD_CHM_PLA_H404_B01_IkarosMask",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_55\\DataPC_55_dlc.forge",
+					"FileID": 1914582673380,
+					"Edits": [
+						{
+							"OffsetHex": "E8DA",
+							"RunSize" : [6],
+							"RunCount": 1042,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "1CA26",
+							"RunSize" : [6],
+							"RunCount": 520,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "1F498",
+							"RunSize" : [6],
+							"RunCount": 415,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "212F4",
+							"RunSize" : [6],
+							"RunCount": 260,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "2271E",
+							"RunSize" : [6],
+							"RunCount": 155,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Ikaros Shoulder Guards",
+			"PatchDescription": "Renders Shoulder Guards from Ikaros Armor invisible",
+			"PatchID": "ACD_CHM_PLA_T404_A01_IkarosShoulders",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_55\\DataPC_55_dlc.forge",
+					"FileID": 1915813301715,
+					"Edits": [
+						{
+							"OffsetHex": "147197",
+							"RunSize" : [6],
+							"RunCount": 15754,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "2114C7",
+							"RunSize" : [6],
+							"RunCount": 7876,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "242FC5",
+							"RunSize" : [6],
+							"RunCount": 6301,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "263B93",
+							"RunSize" : [6],
+							"RunCount": 3937,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "278AE9",
+							"RunSize" : [6],
+							"RunCount": 2363,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Isu Armor Shoulder Pads",
+			"PatchDescription": "Renders Shoulder Pads from Isu Armors invisible",
+			"PatchID": "ACD_CHM_ISU_T20_A02_ShoulderPads (Big) and ACD_CHB_ISU_T19_BB_ShoulderPads (Small)",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_33\\DataPC_33_dlc.forge",
+					"FileID": 1799221144875,
+					"Edits": [
+						{
+							"OffsetHex": "2DE8E",
+							"RunSize" : [6],
+							"RunCount": 2676,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_33\\DataPC_33_dlc.forge",
+					"FileID": 1827837891798,
+					"Edits": [
+						{
+							"OffsetHex": "24BCE",
+							"RunSize" : [6],
+							"RunCount": 2006,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_33\\DataPC_33_dlc.forge",
+					"FileID": 1827837891806,
+					"Edits": [
+						{
+							"OffsetHex": "5982",
+							"RunSize" : [6],
+							"RunCount": 1338,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_33\\DataPC_33_dlc.forge",
+					"FileID": 1827837891814,
+					"Edits": [
+						{
+							"OffsetHex": "2F49",
+							"RunSize" : [6],
+							"RunCount": 668,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_33\\DataPC_33_dlc.forge",
+					"FileID": 1827837891822,
+					"Edits": [
+						{
+							"OffsetHex": "1F1C",
+							"RunSize" : [6],
+							"RunCount": 400,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Lawgiver Chest Straps",
+			"PatchDescription": "Renders Chest Straps from Lawgiver Armor invisible",
+			"PatchID": "ACD_CHM_PLA_T307_A01_HermitShoulder",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_27\\DataPC_27_dlc.forge",
+					"FileID": 1854907679386,
+					"Edits": [
+						{
+							"OffsetHex": "46E09",
+							"RunSize" : [6],
+							"RunCount": 3672,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "7A9AB",
+							"RunSize" : [6],
+							"RunCount": 1782,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "86CB7",
+							"RunSize" : [6],
+							"RunCount": 910,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "8ED7F",
+							"RunSize" : [6],
+							"RunCount": 562,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "945FA",
+							"RunSize" : [6],
+							"RunCount": 336,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Lawgiver Mask",
+			"PatchDescription": "Renders Mask from Lawgiver Armor invisible",
+			"PatchID": "ACD_CHM_PLA_H307_B01_HermitMask",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_27\\DataPC_27_dlc.forge",
+					"FileID": 1854907645384,
+					"Edits": [
+						{
+							"OffsetHex": "43872",
+							"RunSize" : [6],
+							"RunCount": 2972,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "84434",
+							"RunSize" : [6],
+							"RunCount": 1698,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "8A0C6",
+							"RunSize" : [6],
+							"RunCount": 956,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "8D4B4",
+							"RunSize" : [6],
+							"RunCount": 368,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "8EFB6",
+							"RunSize" : [6],
+							"RunCount": 208,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Lawgiver Skirt Straps",
+			"PatchDescription": "Renders 2 Straps behind Lawgiver Skirt invisible",
+			"PatchID": "ACD_CHM_PLA_D307_A02_HermitSkirt",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_27\\DataPC_27_dlc.forge",
+					"FileID": 1857422398953,
+					"Edits": [
+						{
+							"OffsetHex": "6678",
+							"RunSize" : [6],
+							"RunCount": 352,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_27\\DataPC_27_dlc.forge",
+					"FileID": 1865377528870,
+					"Edits": [
+						{
+							"OffsetHex": "AA7B",
+							"RunSize" : [6],
+							"RunCount": 266,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Lawgiver Vambraces",
+			"PatchDescription": "Renders Vambraces from Lawgiver invisible",
+			"PatchID": "ACD_CHM_PLA_A307_A01_HermitArmbandsRight and ACD_CHM_PLA_A307_C01_HermitArmbandsLeft",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_27\\DataPC_27_dlc.forge",
+					"FileID": 1854907694148,
+					"Edits": [
+						{
+							"OffsetHex": "22BE1",
+							"RunSize" : [6],
+							"RunCount": 2933,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "40BD9",
+							"RunSize" : [6],
+							"RunCount": 1988,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "4A8CB",
+							"RunSize" : [6],
+							"RunCount": 1285,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "50B46",
+							"RunSize" : [6],
+							"RunCount": 660,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "546B7",
+							"RunSize" : [6],
+							"RunCount": 354,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_27\\DataPC_27_dlc.forge",
+					"FileID": 1854907694147,
+					"Edits": [
+						{
+							"OffsetHex": "25720",
+							"RunSize" : [6],
+							"RunCount": 3393,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "475D4",
+							"RunSize" : [6],
+							"RunCount": 2421,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "53178",
+							"RunSize" : [6],
+							"RunCount": 1622,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "5A3EA",
+							"RunSize" : [6],
+							"RunCount": 790,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "5EB90",
+							"RunSize" : [6],
+							"RunCount": 468,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Lawgiver Wolf Head",
+			"PatchDescription": "Renders Wolf Head from Lawgiver Armor invisible",
+			"PatchID": "ACD_CHM_PLA_T307_B01_HermitShoulder",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_27\\DataPC_27_dlc.forge",
+					"FileID": 1854907679388,
+					"Edits": [
+						{
+							"OffsetHex": "2E379",
+							"RunSize" : [6],
+							"RunCount": 2167,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "54AC6",
+							"RunSize" : [6],
+							"RunCount": 1685,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "64ED7",
+							"RunSize" : [6],
+							"RunCount": 922,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "70B3C",
+							"RunSize" : [6],
+							"RunCount": 604,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "7A089",
+							"RunSize" : [6],
+							"RunCount": 431,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Lawgiver Wolf Fur",
+			"PatchDescription": "Renders Wolf Fur from Lawgiver Armor invisible",
+			"PatchID": "ACD_CHM_PLA_T307_C01_HermitShoulder",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_27\\DataPC_27_dlc.forge",
+					"FileID": 1854907679387,
+					"Edits": [
+						{
+							"OffsetHex": "54E13",
+							"RunSize" : [6],
+							"RunCount": 3760,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "A5B48",
+							"RunSize" : [6],
+							"RunCount": 3732,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "D2597",
+							"RunSize" : [6],
+							"RunCount": 2967,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "EF680",
+							"RunSize" : [6],
+							"RunCount": 1232,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "100577",
+							"RunSize" : [6],
+							"RunCount": 672,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Myrmidon Shoulder Guards",
+			"PatchDescription": "Renders Shoulder Guards from Myrmidon Armor invisible",
+			"PatchID": "ACD_CHS_PLA_T402_MyrmidonShoulder",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_53\\DataPC_53_dlc.forge",
+					"FileID": 1879675198673,
+					"Edits": [
+						{
+							"OffsetHex": "8A7A9",
+							"RunSize" : [6],
+							"RunCount": 7990,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "EBBEE",
+							"RunSize" : [6],
+							"RunCount": 3995,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "1035FC",
+							"RunSize" : [6],
+							"RunCount": 3196,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "114780",
+							"RunSize" : [6],
+							"RunCount": 1996,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "11F7B7",
+							"RunSize" : [6],
+							"RunCount": 1197,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Nemean Lion Shoulder",
+			"PatchDescription": "Renders Shoulder from Nemean Armor invisible",
+			"PatchID": "ACD_CHM_PLA_T304_ShouldersNemeanLion",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_20\\DataPC_20_dlc.forge",
+					"FileID": 1744759642258,
+					"Edits": [
+						{
+							"OffsetHex": "11A08C",
+							"RunSize" : [6],
+							"RunCount": 11404,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "1DBF91",
+							"RunSize" : [6],
+							"RunCount": 5702,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "21393A",
+							"RunSize" : [6],
+							"RunCount": 4561,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "23CC29",
+							"RunSize" : [6],
+							"RunCount": 2851,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "259D20",
+							"RunSize" : [6],
+							"RunCount": 1710,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Shark Fishnet",
+			"PatchDescription": "Renders Fishnet & Crabs from Shark Armor invisible",
+			"PatchID": "ACD_CHM_PLA_T313_A01_ShouldersSharks and ACD_CHM_PLA_D313_B01_DressShark",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_30\\DataPC_30_dlc.forge",
+					"FileID": 1819588916713,
+					"Edits": [
+						{
+							"OffsetHex": "1DFBC",
+							"RunSize" : [6],
+							"RunCount": 2848,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_30\\DataPC_30_dlc.forge",
+					"FileID": 1806906272753,
+					"Edits": [
+						{
+							"OffsetHex": "29F81",
+							"RunSize" : [6],
+							"RunCount": 2135,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_30\\DataPC_30_dlc.forge",
+					"FileID": 1806906272778,
+					"Edits": [
+						{
+							"OffsetHex": "6836",
+							"RunSize" : [6],
+							"RunCount": 1424,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_30\\DataPC_30_dlc.forge",
+					"FileID": 1806906272786,
+					"Edits": [
+						{
+							"OffsetHex": "3BCE",
+							"RunSize" : [6],
+							"RunCount": 711,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_30\\DataPC_30_dlc.forge",
+					"FileID": 1806906272794,
+					"Edits": [
+						{
+							"OffsetHex": "2ADA",
+							"RunSize" : [6],
+							"RunCount": 427,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_30\\DataPC_30_dlc.forge",
+					"FileID": 1819588882663,
+					"Edits": [
+						{
+							"OffsetHex": "3591E",
+							"RunSize" : [6],
+							"RunCount": 3350,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "4760A",
+							"RunSize" : [6],
+							"RunCount": 2512,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "54752",
+							"RunSize" : [6],
+							"RunCount": 1674,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "5C896",
+							"RunSize" : [6],
+							"RunCount": 837,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "61C50",
+							"RunSize" : [6],
+							"RunCount": 502,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Snake Hood - Mask Removal",
+			"PatchDescription": "Removes the mask from the Snake hood",
+			"PatchID": "ACD_CHM_PLA_T82_B01_SpartanHeroShoudersPads",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1697846479330,
+					"Edits": [
+						{
+							"OffsetHex": "14D58",
+							"RunSize" : [6],
+							"RunCount": 1293,
+							"Data" : "00"
+						}
+				    ]   
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1698922017942,
+					"Edits": [
+						{
+							"OffsetHex": "CB1D",
+							"RunSize" : [6],
+							"RunCount": 535,
+							"Data" : "00"
+						}
+				    ]   
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1698922017969,
+					"Edits": [
+						{
+							"OffsetHex": "2ED5",
+							"RunSize" : [6],
+							"RunCount": 378,
+							"Data" : "00"
+						}
+				    ]   
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1698922017979,
+					"Edits": [
+						{
+							"OffsetHex": "20B9",
+							"RunSize" : [6],
+							"RunCount": 224,
+							"Data" : "00"
+						}
+				    ]   
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1698922017989,
+					"Edits": [
+						{
+							"OffsetHex": "13D1",
+							"RunSize" : [6],
+							"RunCount": 106,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Spartan Renegade Shoulder/Harness",
+			"PatchDescription": "Removes the Spartan Renegade shoulder/harness leaving bra and necklace",
+			"PatchID": "ACD_CHM_PLA_T89_A01_Shoulder",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1692435146204,
+					"Edits": [
+						{
+							"OffsetHex": "365DC",
+							"RunSize" : [6],
+							"RunCount": 2966,
+							"Data" : "00"
+						}
+				    ]   
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1700761956752,
+					"Edits": [
+						{
+							"OffsetHex": "2357C",
+							"RunSize" : [6],
+							"RunCount": 1572,
+							"Data" : "00"
+						}
+				    ]   
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1700761956758,
+					"Edits": [
+						{
+							"OffsetHex": "68FA",
+							"RunSize" : [6],
+							"RunCount": 1268,
+							"Data" : "00"
+						}
+				    ]   
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1700761956764,
+					"Edits": [
+						{
+							"OffsetHex": "4BE2",
+							"RunSize" : [6],
+							"RunCount": 838,
+							"Data" : "00"
+						}
+				    ]   
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1700761956770,
+					"Edits": [
+						{
+							"OffsetHex": "3496",
+							"RunSize" : [6],
+							"RunCount": 508,
+							"Data" : "00"
+						}
+				    ]   
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1692435146246,
+					"Edits": [
+						{
+							"OffsetHex": "E48E",
+							"RunSize" : [6],
+							"RunCount": 944,
+							"Data" : "00"
+						}
+				    ]   
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1700761956776,
+					"Edits": [
+						{
+							"OffsetHex": "6E7A",
+							"RunSize" : [6],
+							"RunCount": 382,
+							"Data" : "00"
+						}
+				    ]   
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1700761956782,
+					"Edits": [
+						{
+							"OffsetHex": "4F62",
+							"RunSize" : [6],
+							"RunCount": 296,
+							"Data" : "00"
+						}
+				    ]   
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1700761956788,
+					"Edits": [
+						{
+							"OffsetHex": "2922",
+							"RunSize" : [6],
+							"RunCount": 139,
+							"Data" : "00"
+						}
+				    ]   
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1700761956794,
+					"Edits": [
+						{
+							"OffsetHex": "1CE6",
+							"RunSize" : [6],
+							"RunCount": 78,
+							"Data" : "00"
+						},
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Spartan War Hero/Ares Shoulder Pad",
+			"PatchDescription": "Removes shoulder pad fringe",
+			"PatchID": "ACD_CHM_PLA_T82_B01_SpartanHeroShoudersPads",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1654237180549,
+					"Edits": [
+						{
+							"OffsetHex": "2752D",
+							"RunSize" : [6],
+							"RunCount": 1688,
+							"Data" : "00"
+						},
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Oracle Bandana",
+			"PatchDescription": "Renders Oracle Bandana invisible",
+			"PatchID": "ACD_CHM_PLA_H401_B01_BandanaOracle & ACD_CHM_PLA_H401_B02_BandanaOracle",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_52\\DataPC_52_dlc.forge",
+					"FileID": 1877214640666,
+					"Edits": [
+						{
+							"OffsetHex": "296D8",
+							"RunSize" : [6],
+							"RunCount": 245,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "610F1",
+							"RunSize" : [6],
+							"RunCount": 910,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "64416",
+							"RunSize" : [6],
+							"RunCount": 552,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "6629F",
+							"RunSize" : [6],
+							"RunCount": 190,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "66F58",
+							"RunSize" : [6],
+							"RunCount": 62,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_52\\DataPC_52_dlc.forge",
+					"FileID": 1877214878159,
+					"Edits": [
+						{
+							"OffsetHex": "39E80",
+							"RunSize" : [6],
+							"RunCount": 1078,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "7138B",
+							"RunSize" : [6],
+							"RunCount": 807,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "753BE",
+							"RunSize" : [6],
+							"RunCount": 539,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "77F53",
+							"RunSize" : [6],
+							"RunCount": 268,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "79B84",
+							"RunSize" : [6],
+							"RunCount": 160,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Oracle Shoulder Cloth",
+			"PatchDescription": "Renders Oracle Shoulder Cloth invisible",
+			"PatchID": "ACD_CHM_PLA_T401_C01_ShouldersOracle & ACD_CHM_PLA_T401_D01_ShouldersOracle",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_52\\DataPC_52_dlc.forge",
+					"FileID": 1877214655515,
+					"Edits": [
+						{
+							"OffsetHex": "777A5",
+							"RunSize" : [6],
+							"RunCount": 5081,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "D498E",
+							"RunSize" : [6],
+							"RunCount": 3888,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "F11A7",
+							"RunSize" : [6],
+							"RunCount": 2445,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "103A45",
+							"RunSize" : [6],
+							"RunCount": 1321,
+							"Data" : "00"
+						},
+						{
+							"OffsetHex": "10FD13",
+							"RunSize" : [6],
+							"RunCount": 776,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_52\\DataPC_52_dlc.forge",
+					"FileID": 1877214655582,
+					"Edits": [
+						{
+							"OffsetHex": "16BC9",
+							"RunSize" : [6],
+							"RunCount": 1356,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_52\\DataPC_52_dlc.forge",
+					"FileID": 1877214655713,
+					"Edits": [
+						{
+							"OffsetHex": "12C5B",
+							"RunSize" : [6],
+							"RunCount": 843,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_52\\DataPC_52_dlc.forge",
+					"FileID": 1877214655738,
+					"Edits": [
+						{
+							"OffsetHex": "4BD1",
+							"RunSize" : [6],
+							"RunCount": 548,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_52\\DataPC_52_dlc.forge",
+					"FileID": 1877214655746,
+					"Edits": [
+						{
+							"OffsetHex": "23B0",
+							"RunSize" : [6],
+							"RunCount": 216,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_52\\DataPC_52_dlc.forge",
+					"FileID": 1877214655754,
+					"Edits": [
+						{
+							"OffsetHex": "16C8",
+							"RunSize" : [6],
+							"RunCount": 114,
+							"Data" : "00"
+						}
+					]
+				}
+			]
+		}
+	]
+}

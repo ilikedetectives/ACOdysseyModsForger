@@ -28,4 +28,4 @@ Appearance/Outfit mods for Assassin's Creed: Odyssey, using Forger Utility Tool 
 * [Blacksmith](https://github.com/theawesomecoder61/Blacksmith) by theawesomecoder61
 
 ## Donation
-If you like my work, you can support me via [Ko-fi](https://ko-fi.com/ilikedetectives) or [Paypal](https://www.paypal.com/paypalme2/colin9999). Thank you so much!
+If you like my work, you can support me via [Ko-fi](https://ko-fi.com/ilikedetectives) or [Paypal](https://www.paypal.com/paypalme/colin9999). Thank you so much!
